@@ -1,0 +1,27 @@
+============================================================
+SMART SHELF INVENTORY & RESTOCK ALERT REPORT
+Timestamp: 2026-09-10 20:28:28
+Overall Status: RESTOCK_REQUIRED
+============================================================
+
+SHELF: Shelf 1 (Top) (ID: 1)
+  Status: RESTOCK_REQUIRED
+  Detected Items: {'cup': 1, 'bowl': 1, 'orange': 1, 'dining table': 1, 'knife': 1}
+  Expected Items: {'cup': 2, 'orange': 1, 'bowl': 1}
+  Restock Alerts:
+    - MISSING 1x 'cup' (Found 1 / Expected 2)
+----------------------------------------
+SHELF: Shelf 2 (Middle) (ID: 2)
+  Status: RESTOCK_REQUIRED
+  Detected Items: {'book': 4}
+  Expected Items: {'book': 6}
+  Restock Alerts:
+    - MISSING 2x 'book' (Found 4 / Expected 6)
+----------------------------------------
+SHELF: Shelf 3 (Bottom) (ID: 3)
+  Status: RESTOCK_REQUIRED
+  Detected Items: {'cup': 2, 'bowl': 1, 'dining table': 1}
+  Expected Items: {'cup': 2, 'bowl': 2}
+  Restock Alerts:
+    - MISSING 1x 'bowl' (Found 1 / Expected 2)
+----------------------------------------

@@ -1,0 +1,89 @@
+{
+  "timestamp": "2026-09-10 20:28:28",
+  "overall_status": "RESTOCK_REQUIRED",
+  "image_processed": "shelf.jpg",
+  "shelves": [
+    {
+      "shelf_id": 1,
+      "shelf_name": "Shelf 1 (Top)",
+      "status": "RESTOCK_REQUIRED",
+      "expected_inventory": {
+        "cup": 2,
+        "orange": 1,
+        "bowl": 1
+      },
+      "present_inventory": {
+        "cup": 1,
+        "bowl": 1,
+        "orange": 1,
+        "dining table": 1,
+        "knife": 1
+      },
+      "missing_items": {
+        "cup": {
+          "expected": 2,
+          "present": 1,
+          "missing_count": 1
+        }
+      },
+      "detected_objects": [
+        "cup",
+        "bowl",
+        "orange",
+        "dining table",
+        "knife"
+      ]
+    },
+    {
+      "shelf_id": 2,
+      "shelf_name": "Shelf 2 (Middle)",
+      "status": "RESTOCK_REQUIRED",
+      "expected_inventory": {
+        "book": 6
+      },
+      "present_inventory": {
+        "book": 4
+      },
+      "missing_items": {
+        "book": {
+          "expected": 6,
+          "present": 4,
+          "missing_count": 2
+        }
+      },
+      "detected_objects": [
+        "book",
+        "book",
+        "book",
+        "book"
+      ]
+    },
+    {
+      "shelf_id": 3,
+      "shelf_name": "Shelf 3 (Bottom)",
+      "status": "RESTOCK_REQUIRED",
+      "expected_inventory": {
+        "cup": 2,
+        "bowl": 2
+      },
+      "present_inventory": {
+        "cup": 2,
+        "bowl": 1,
+        "dining table": 1
+      },
+      "missing_items": {
+        "bowl": {
+          "expected": 2,
+          "present": 1,
+          "missing_count": 1
+        }
+      },
+      "detected_objects": [
+        "cup",
+        "bowl",
+        "cup",
+        "dining table"
+      ]
+    }
+  ]
+}
